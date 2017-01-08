@@ -17,7 +17,8 @@ https://github.com/electron/electron/releases
 압축 해제하여 생긴 폴더 내에 있는 resource 폴더로 app 폴더를 옳깁니다.
 압축 해제하여 생긴 폴더 내에 있는 electron.exe 파일을 실행합니다.
 
-/*electron.exe로 실행할 경우 root 폴더가 프리빌드 바이너리 폴더입니다.  그래서 상대경로를 사용하게 될 경우 에러가 발생할 수 있습니다.*/
+electron.exe로 실행할 경우 root 폴더가 프리빌드 바이너리 폴더입니다.  그래서 상대경로를 사용하게 될 경우 에러가 발생할 수 있습니다.
+
 
 부산 자바스크립트(부자) 모임 있어요.
 이메일 sumel014@naver.con
