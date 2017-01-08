@@ -1,0 +1,20 @@
+li, textarea, a, textarea {
+  -webkit-app-region: no-drag;
+}
+.container-fluid {
+  padding: 0px;
+}
+.pager {
+  margin: 2px;
+}
+html, body, .container-fluid {
+  height: 100%;
+}
+.form-group{
+  margin: 0px;
+}
+textarea.form-control {
+  height: 100%;
+  resize: none;
+  padding: 2px;
+}

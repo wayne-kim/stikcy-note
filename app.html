@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./app.css">
+  </head>
+
+  <body style = "-webkit-app-region: drag" onresize="setComponentRatio()">
+    <div class="container-fluid">
+      <ul class="pager">
+        <li class="previous"><a class="glyphicon glyphicon-plus" onclick="newSticky()"></a></li>
+        <li class="next"><a class="glyphicon glyphicon-remove"  onclick="hideSticky()"></a></li>
+        <li class="next"><a class="glyphicon glyphicon-trash"  onclick="deleteSticky()"></a></li>
+      </ul>
+
+      <div class="form-group">
+        <textarea class="form-control" id="my-textarea" rows="1"></textarea>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="./render.js">
+
+    </script>
+  </body>
+</html>
